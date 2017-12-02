@@ -24,7 +24,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 14,
+    "uniqCompNum": 15,
     "versionPublish": "4.5.2"
   },
   "pages": {
@@ -261,6 +261,19 @@
           ],
           "_name": "gallery1",
           "_anchor": "gallery1-2"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://global-dynamic-marketing.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Visit GlobalDynamicMarketing.com</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://ctx-line.de/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">&nbsp; &nbsp; &nbsp; &nbsp;Visit Ctx-Line.De &nbsp; &nbsp; &nbsp;&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://gd-line-asia.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Visit GlobalDynamicAsia.com</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://cryptominingtips.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Visit CryptoMiningTips.com</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-e"
         },
         {
           "_params": {
