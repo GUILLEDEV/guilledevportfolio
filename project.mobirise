@@ -20,11 +20,12 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#1e7c3a"
+        "#1e7c3a",
+        "#4a4a4a"
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 17,
+    "uniqCompNum": 21,
     "versionPublish": "4.5.2"
   },
   "pages": {
@@ -183,7 +184,7 @@
           "_params": {
             "showMeta": true,
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "0",
             "bgColor": "#fff"
           },
           "title": "Portfolio",
@@ -196,174 +197,195 @@
         },
         {
           "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gdm-2000x1116.png",
-                "thumb": "@PROJECT_PATH@/assets/images/gdm-2000x1116-800x446.png",
-                "alt": "",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/ctx-2000x1138.png",
-                "thumb": "@PROJECT_PATH@/assets/images/ctx-2000x1138-800x455.png",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gda-2000x1120.png",
-                "thumb": "@PROJECT_PATH@/assets/images/gda-2000x1120-800x448.png",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/cmt-2000x1139.png",
-                "thumb": "@PROJECT_PATH@/assets/images/cmt-2000x1139-800x455.png",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
-          "allItem": "All",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-2"
-        },
-        {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "showHeading": false,
             "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "contentAlign": "center",
-            "columns": "4",
-            "showFeaturesImages": false,
-            "iconsBgColor": "@primaryColor",
-            "showFeaturesTitles": false,
-            "showFeaturesTexts": false,
-            "showFeaturesButtons": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
             "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fffffd",
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.85
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
           },
-          "title": "Always on your terms",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "media1": {
-            "iconFont": {
+          "media": {
+            "image": {
               "active": true,
-              "class": "mbr-iconfont",
-              "name": "touch",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/gdm-2000x1116-800x446.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             }
           },
-          "number1": "<p>1</p>",
-          "title1": "What is Mobirise",
-          "subtitle1": "Awesome",
-          "text1": "Visit Now",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://global-dynamic-marketing.com/\" target=\"_blank\">Visit Site</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "number2": "<p>2</p>",
-          "title2": "What is Mobirise",
-          "subtitle2": "Awesome",
-          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://ctx-line.de/\" target=\"_blank\">Visit Site</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "setting",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "number3": "<p>3</p>",
-          "title3": "What is Mobirise",
-          "subtitle3": "Awesome",
-          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://gd-line-asia.com/\" target=\"_blank\">Visit Site</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "hot-cup",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "number4": "<p>4</p>",
-          "title4": "What is Mobirise",
-          "subtitle4": "Awesome",
-          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://cryptominingtips.com/\" target=\"_blank\">Visit Site</a>",
+          "title": "Global Dynamic Marketing",
+          "text": "Full responsive landing page..",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Visit Website</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features14",
-          "_anchor": "features14-g",
-          "_styles": {
-            ".mbr-iconfont": {
-              "color": "@primaryColor",
-              "border-color": "@primaryColor"
+          "_name": "header3",
+          "_anchor": "header3-h"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/cmt-2000x1139-800x455.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             }
-          }
+          },
+          "title": "Crypro Mining Tips",
+          "text": "Full responsive landing page for affiliates..",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-i"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/gda-2000x1120-800x448.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Global Dynamic Asia",
+          "text": "Full responsive landing page, blog. with back-end.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/ctx-2000x1138-800x455.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "CTX-Line.de Centauri Coin",
+          "text": "Full responsive landing page..",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-k"
         },
         {
           "_params": {
@@ -720,12 +742,20 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-a"
+          "_anchor": "content1-a",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "P": {
+              "text-align": "right"
             }
           },
           "_params": {

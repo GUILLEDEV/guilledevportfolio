@@ -597,10 +597,6 @@ a:hover {
 #content3-3 .mbr-section-subtitle {
   text-align: center;
 }
-#features14-g .mbr-iconfont {
-  color: #5aac98;
-  border-color: #5aac98;
-}
 #features19-6 .mbr-iconfont {
   background: #5aac98;
   border-color: #5aac98;
@@ -616,9 +612,15 @@ a:hover {
 #content3-9 P {
   text-align: right;
 }
+#content1-a P {
+  text-align: left;
+}
 #content3-b .mbr-section-title,
 #content3-b .mbr-section-subtitle {
   text-align: center;
+}
+#content3-b P {
+  text-align: right;
 }
 #form1-4 .form {
   background: #fafbfc;
