@@ -200,8 +200,8 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "inverse": false,
-            "showArrow": false,
+            "inverse": true,
+            "showArrow": true,
             "imageSize": 58,
             "paddingTop": 1,
             "paddingBottom": 1,
@@ -249,7 +249,7 @@
             "showText": true,
             "showButtons": true,
             "inverse": true,
-            "showArrow": false,
+            "showArrow": true,
             "imageSize": 58,
             "paddingTop": 1,
             "paddingBottom": 1,
@@ -284,7 +284,7 @@
           },
           "title": "Crypro Mining Tips",
           "text": "Full responsive landing page for affiliates..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Visit Website</a>",
           "_tags": [
             "Theme"
           ],
@@ -296,8 +296,8 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "inverse": false,
-            "showArrow": false,
+            "inverse": true,
+            "showArrow": true,
             "imageSize": 58,
             "paddingTop": 1,
             "paddingBottom": 1,
@@ -332,7 +332,7 @@
           },
           "title": "Global Dynamic Asia",
           "text": "Full responsive landing page, blog. with back-end.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Visit Website</a>",
           "_tags": [
             "Theme"
           ],
@@ -345,7 +345,7 @@
             "showText": true,
             "showButtons": true,
             "inverse": true,
-            "showArrow": false,
+            "showArrow": true,
             "imageSize": 58,
             "paddingTop": 1,
             "paddingBottom": 1,
@@ -380,7 +380,7 @@
           },
           "title": "CTX-Line.de Centauri Coin",
           "text": "Full responsive landing page..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Visit Website</a>",
           "_tags": [
             "Theme"
           ],
